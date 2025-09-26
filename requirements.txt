@@ -1,0 +1,15 @@
+# Linting and code formatting
+autopep8
+black
+isort
+pep8-naming
+pycodestyle
+autoflake
+flake8
+pyflakes
+
+# Image processing
+pillow
+
+# Testing
+pytest
