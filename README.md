@@ -48,6 +48,9 @@ gui/maps/icons/tankmen/icons/  # Output folders for resized images
     - `gui/maps/icons/tankmen/icons/big`
     - `gui/maps/icons/tankmen/icons/barracks`
 
+## Installation
+Copy the "gui" folder to World_Of_Tanks/res_mods/x.x.x.x/. (x - current patch number)
+
 ## Configuration
 
 You can change the input and output folder paths or the list of countries by editing the following variables in `main.py`:
