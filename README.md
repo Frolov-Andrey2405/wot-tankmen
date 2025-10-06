@@ -12,7 +12,7 @@ This script automates the resizing and renaming of crew member images for World 
 
 ## Folder Structure
 
-```
+```cmd
 crew/                          # Input folder with original images
 gui/maps/icons/tankmen/icons/  # Output folders for resized images
     ├── small/
@@ -28,28 +28,32 @@ gui/maps/icons/tankmen/icons/  # Output folders for resized images
 
 2. **Install Dependencies:**
 
-- Install all required Python packages using:
-    ```
-    pip install -r requirements.txt
-    ```
-- The main dependency for image processing is [Pillow](https://pillow.readthedocs.io/en/stable/?badge=latest).
+    - Install all required Python packages using:
+
+        ```cmd
+        pip install -r requirements.txt
+        ```
+
+    - The main dependency for image processing is [Pillow](https://pillow.readthedocs.io/en/stable/?badge=latest).
 
 3. **Run the Script:**
 
-- Execute the script:
-    ```
-    python main.py
-    ```
+    - Execute the script:
+
+        ```cmd
+        python main.py
+        ```
 
 4. **Result:**
 
-- Resized and renamed images will be saved in the respective output folders:
-    - `gui/maps/icons/tankmen/icons/small`
-    - `gui/maps/icons/tankmen/icons/big`
-    - `gui/maps/icons/tankmen/icons/barracks`
+    - Resized and renamed images will be saved in the respective output folders:
+        - `gui/maps/icons/tankmen/icons/small`
+        - `gui/maps/icons/tankmen/icons/big`
+        - `gui/maps/icons/tankmen/icons/barracks`
 
 ## Installation
-Copy the "gui" folder to World_Of_Tanks/res_mods/x.x.x.x/. (x - current patch number)
+
+Copy the "gui" folder to `World_Of_Tanks/res_mods/x.x.x.x/` (x - current patch number).
 
 ## Configuration
 
@@ -57,22 +61,22 @@ You can change the input and output folder paths or the list of countries by edi
 
 ```python
 input_folder = "crew"
-    small_output_folder = "gui/maps/icons/tankmen/icons/small"
-    big_output_folder = "gui/maps/icons/tankmen/icons/big"
-    barracks_output_folder = "gui/maps/icons/tankmen/icons/barracks"
-    country_list = [
-        "china",
-        "czech",
-        "france",
-        "germany",
-        "italy",
-        "japan",
-        "poland",
-        "sweden",
-        "UK",
-        "usa",
-        "ussr",
-    ]
+small_output_folder = "gui/maps/icons/tankmen/icons/small"
+big_output_folder = "gui/maps/icons/tankmen/icons/big"
+barracks_output_folder = "gui/maps/icons/tankmen/icons/barracks"
+country_list = [
+    "china",
+    "czech",
+    "france",
+    "germany",
+    "italy",
+    "japan",
+    "poland",
+    "sweden",
+    "UK",
+    "usa",
+    "ussr",
+]
 ```
 
 ## Example Output
